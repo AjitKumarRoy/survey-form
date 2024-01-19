@@ -56,13 +56,22 @@ body {
    padding: 1em 2em;
    margin: 1em auto;
    background-blend-mode: multiply;
+   max-width: 500px;
  }
  
  input[type="submit"] {
    background-color: rgb(0, 100, 0);
    border: 1px solid rgb(0, 100, 0);
    padding: 0.5em;
-   color: f5f6f7;
+   color: #f5f6f7;
    margin-top: 1em;
+   cursor: pointer;
+   transition: background-color 0.3s ease; 
  }
+
+ input[type="submit"]:hover {
+    background-color: rgb(0, 120, 0); /* Change color on hover */
+ }
+
+ 
  
